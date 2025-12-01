@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24/7 Plumbing & Heating Services in Battersea. Rated 4.9★ by 77+ customers. Emergency call-outs available immediately.">
+    <title>Smyth Plumbing and Heating - Trusted Battersea Plumbers</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#001F3F',
+                        orange: '#FF851B',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Hero Section -->
+    <section class="bg-navy text-white py-20 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="bg-orange text-navy inline-block px-3 py-1 rounded-full mb-4 text-sm font-bold">
+                    EMERGENCY CALL-OUTS 24/7
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Trusted Plumbing & Heating Engineers in Battersea</h1>
+                <p class="text-xl mb-8">Rated 4.9★ by 77+ happy customers. Fast response, fair pricing, Gas Safe certified.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="tel:+447591115721" class="bg-orange hover:bg-orange-600 text-navy font-bold py-4 px-8 rounded-lg text-center transition duration-300 flex items-center justify-center">
+                        <i data-feather="phone" class="mr-2"></i> Call Now
+                    </a>
+                    <a href="/contact" class="bg-white hover:bg-gray-100 text-navy font-bold py-4 px-8 rounded-lg text-center transition duration-300">
+                        Free Quote
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="http://static.photos/technology/1024x576/42" alt="Plumbing technician at work" class="rounded-lg shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Badge -->
+    <section class="py-8 bg-white shadow-sm">
+        <div class="container mx-auto text-center">
+            <div class="inline-flex items-center bg-white px-6 py-3 rounded-full shadow-md">
+                <div class="flex items-center text-orange mr-2">
+                    <i data-feather="star" class="fill-current mr-1"></i>
+                    <i data-feather="star" class="fill-current mr-1"></i>
+                    <i data-feather="star" class="fill-current mr-1"></i>
+                    <i data-feather="star" class="fill-current mr-1"></i>
+                    <i data-feather="star" class="fill-current mr-1"></i>
+                </div>
+                <span class="font-bold text-navy">Rated 4.9/5 by 77 customers</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center text-navy mb-12">Our Plumbing & Heating Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i data-feather="alert-circle" class="w-16 h-16 text-orange"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy mb-2">Emergency Plumbing</h3>
+                        <p class="text-gray-600 mb-4">24/7 rapid response to burst pipes, leaks, and plumbing emergencies.</p>
+                        <a href="/services#emergency" class="text-orange font-semibold flex items-center">
+                            Learn more <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i data-feather="thermometer" class="w-16 h-16 text-orange"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy mb-2">Boiler Services</h3>
+                        <p class="text-gray-600 mb-4">Repair, installation and maintenance of all boiler makes and models.</p>
+                        <a href="/services#boiler" class="text-orange font-semibold flex items-center">
+                            Learn more <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i data-feather="droplet" class="w-16 h-16 text-orange"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-navy mb-2">Leak Detection</h3>
+                        <p class="text-gray-600 mb-4">Advanced technology to find hidden leaks without unnecessary damage.</p>
+                        <a href="/services#leak" class="text-orange font-semibold flex items-center">
+                            Learn more <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 px-4 bg-navy text-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Why Battersea Trusts Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-orange text-navy w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="clock" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Fast Response</h3>
+                    <p class="text-gray-300">Average 45-minute response time for emergencies</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange text-navy w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="shield" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Gas Safe Certified</h3>
+                    <p class="text-gray-300">All engineers fully qualified and certified</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange text-navy w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="dollar-sign" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Fair Pricing</h3>
+                    <p class="text-gray-300">Upfront quotes with no hidden fees</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange text-navy w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="users" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Local Team</h3>
+                    <p class="text-gray-300">Battersea-based plumbers who care</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency CTA -->
+    <section class="py-16 px-4 bg-orange text-navy">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Need help right now? We're already on the way.</h2>
+            <a href="tel:+447591115721" class="inline-block bg-navy hover:bg-navy-800 text-white font-bold py-4 px-12 rounded-lg transition duration-300">
+                <i data-feather="phone" class="mr-2 inline"></i> Call Our Emergency Line
+            </a>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
